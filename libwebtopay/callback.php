@@ -20,8 +20,8 @@ function isPaymentValid(array $order, array $response): bool
 try {
     $response = WebToPay::validateAndParseData(
         $_REQUEST,
-        {YOUR_PROJECT_ID},
-        {YOUR_PROJECT_PASSWORD}
+        {229906},
+        {6d8e4836f22d0a921638c5a785a62896}
     );
  
     if ($response['status'] === '1' || $response['status'] === '3') {
