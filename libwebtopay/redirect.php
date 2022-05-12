@@ -23,8 +23,8 @@ function getSelfUrl(): string
  
 try {
      WebToPay::redirectToPayment([
-        'projectid' => {YOUR_PROJECT_ID},
-        'sign_password' => {YOUR_PROJECT_PASSWORD},
+        'projectid' => {229906},
+        'sign_password' => {6d8e4836f22d0a921638c5a785a62896},
         'orderid' => 0,
         'amount' => 1000,
         'currency' => 'EUR',
